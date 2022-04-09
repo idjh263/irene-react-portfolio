@@ -1,3 +1,22 @@
-.skills {
+.skill-title {
     padding: 20px;
+}
+.skill-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+}
+.skill-wrapper img {
+   width: 60%;
+   height: 300px;
+   margin: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
 }
