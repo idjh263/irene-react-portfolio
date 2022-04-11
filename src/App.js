@@ -5,6 +5,8 @@ import About from "./Pages/About";
 import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
 import Gprojects from "./Pages/Gprojects";
+import Footer from "./components/Footer/footer";
+import Header from "./components/Header/header";
 import ErrorPage from "./Pages/Errorpage";
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <Link to="/gprojects"> Projects </Link>
         <Link to="/contact"> Contact </Link>
       </nav>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -25,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer/>
       
     </Router>
   );
