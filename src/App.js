@@ -1,50 +1,33 @@
-import React, { useState } from "react";
-import Nav from "./components/Nav/nav";
-import Home from "./components/Home/home";
-import About from "./components/About/about";
-// import Skills from "./components/Skills";
-// import Project from "./components/Projects";
-import Contact from "./components/Contact/contact";
+import "./index.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Skills from "./Pages/Skills";
+import Contact from "./Pages/Contact";
+import Gprojects from "./Pages/Gprojects";
+import ErrorPage from "./Pages/Errorpage";
 
 function App() {
-  const [categories] = useState([
-  
-    { 
-      name: 'skills',
-    },
-    { 
-      name: 'projects',
-      
-    },
-  
-  ]);
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
-
-
   return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Home currentCategory={currentCategory}></Home>
-            <About></About>
-          </>
-        ) : (
-          <Contact></Contact>
-        )}
-      </main>
-     
-    </div>
+    <Router>
+      <nav>
+        <Link to="/"> Home </Link>
+        <Link to="/about"> About </Link>
+        <Link to="/skills"> Skills </Link>
+        <Link to="/gprojects"> Projects </Link>
+        <Link to="/contact"> Contact </Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/gprojects" element={<Gprojects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+      
+    </Router>
   );
-  }
+}
 
 export default App;
