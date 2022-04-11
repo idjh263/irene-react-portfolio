@@ -272,3 +272,9 @@ nav a.active {
   font-size: 2rem;
   font-weight: 300;
 }
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}

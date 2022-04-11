@@ -5,6 +5,7 @@ import About from "./Pages/About";
 import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
 import Gprojects from "./Pages/Gprojects";
+import Footer from "./components/footer";
 import ErrorPage from "./Pages/Errorpage";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer/>
       
     </Router>
   );
