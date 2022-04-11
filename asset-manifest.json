@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/idjh263/irene-react-portfolio/static/css/main.b2be2e8f.css",
-    "main.js": "/idjh263/irene-react-portfolio/static/js/main.1ad451c9.js",
+    "main.css": "/idjh263/irene-react-portfolio/static/css/main.9a27a88c.css",
+    "main.js": "/idjh263/irene-react-portfolio/static/js/main.3ee4ccc6.js",
     "static/js/787.134955a3.chunk.js": "/idjh263/irene-react-portfolio/static/js/787.134955a3.chunk.js",
     "static/media/max-harlynking-_QcLpud-gD0-unsplash.jpg": "/idjh263/irene-react-portfolio/static/media/max-harlynking-_QcLpud-gD0-unsplash.94e3d7b058161eba389e.jpg",
     "static/media/encore.png": "/idjh263/irene-react-portfolio/static/media/encore.58d5c1b582c00ec460d1.png",
@@ -9,12 +9,12 @@
     "static/media/ireneProfile.png": "/idjh263/irene-react-portfolio/static/media/ireneProfile.8ae39c1b7e7ca97e7376.png",
     "static/media/underconstraction.jpg": "/idjh263/irene-react-portfolio/static/media/underconstraction.a93fb95c76cde319fd1b.jpg",
     "index.html": "/idjh263/irene-react-portfolio/index.html",
-    "main.b2be2e8f.css.map": "/idjh263/irene-react-portfolio/static/css/main.b2be2e8f.css.map",
-    "main.1ad451c9.js.map": "/idjh263/irene-react-portfolio/static/js/main.1ad451c9.js.map",
+    "main.9a27a88c.css.map": "/idjh263/irene-react-portfolio/static/css/main.9a27a88c.css.map",
+    "main.3ee4ccc6.js.map": "/idjh263/irene-react-portfolio/static/js/main.3ee4ccc6.js.map",
     "787.134955a3.chunk.js.map": "/idjh263/irene-react-portfolio/static/js/787.134955a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2be2e8f.css",
-    "static/js/main.1ad451c9.js"
+    "static/css/main.9a27a88c.css",
+    "static/js/main.3ee4ccc6.js"
   ]
 }
