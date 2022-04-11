@@ -18,6 +18,8 @@
 - [License](#license)
 - [Credits](#credits)
 
+https://idjh263.github.io/irene-react-portfolio/
+
 <img width="800" alt="irene_portfolio" src="https://user-images.githubusercontent.com/92761848/162650171-6af3d0ce-f7cd-4079-b17f-e31aff33d9cf.png">
 
 ## Installation
