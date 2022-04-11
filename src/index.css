@@ -278,3 +278,13 @@ nav a.active {
   font-size: 20px;
   padding-bottom: 20px;
 }
+.header {
+  padding-top: 10px;
+  font-size: 30px;
+  color: #cccccc;
+  text-align: center;
+  font-size: 40px;
+}
+.header p:hover {
+  color: red;
+}
