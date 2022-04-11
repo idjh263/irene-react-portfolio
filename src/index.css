@@ -267,10 +267,7 @@ nav a.active {
   justify-content: center;
   align-items: center;
 }
-.icon-text svg {
-  font-size: 2.2rem;
-  margin-right: 2rem;
-}
+
 .icon-text span {
   font-size: 2rem;
   font-weight: 300;

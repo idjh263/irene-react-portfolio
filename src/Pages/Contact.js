@@ -1,9 +1,10 @@
 import React from "react";
 import "../../src/index.css";
-
+//import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
+import githhubicon from "../assets/images/github.png";
 
 const Contact = () => {
   return (
@@ -29,10 +30,9 @@ const Contact = () => {
             <span> Toronto, Canada</span>
           </div>
           <div className="social-media">
-            {/* <a className="icon-circle" href="#">
-           
-              <i className="icon"></i>
-              </a> */}
+          <a href="https://github.com/Joeyryanbridges">
+          <image src={githhubicon} className="githubIcon" />
+</a>
           </div>
         </div>
         <form className="contact-form">
