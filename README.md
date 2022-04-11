@@ -18,11 +18,13 @@
 - [License](#license)
 - [Credits](#credits)
 
+<img width="800" alt="irene_portfolio" src="https://user-images.githubusercontent.com/92761848/162650171-6af3d0ce-f7cd-4079-b17f-e31aff33d9cf.png">
 
 ## Installation
 💾 1. download or clone file 
    2. npm install or npm i - to download the dependencies 
    3. see usage on how to use react 
+
 
 
 
