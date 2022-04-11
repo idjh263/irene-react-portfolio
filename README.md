@@ -1,3 +1,33 @@
+
+
+## Project Title: 
+<h1 align="center">React Portfolio </h1>
+
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
+## Description:
+
+🔍 This is a React version of my Portfolio. Still working on other components that will link images with the github repository. 
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
+
+
+## Installation
+💾 1. download or clone file 
+   2. npm install or npm i - to download the dependencies 
+   3. see usage on how to use react 
+
+
+
+## Usage
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +98,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Built with:
+
+- React
+- ReactJS
+- Fontawesome
+
+
+
+## License
+
+https://opensource.org/licenses/MIT
+
+## Credits 
+👪 Made by Irene with the help TA's, instructor @Trilogy, coding vloggers 
+
