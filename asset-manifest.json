@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/idjh263/irene-react-portfolio/static/css/main.9a27a88c.css",
-    "main.js": "/idjh263/irene-react-portfolio/static/js/main.3ee4ccc6.js",
-    "static/js/787.134955a3.chunk.js": "/idjh263/irene-react-portfolio/static/js/787.134955a3.chunk.js",
-    "static/media/max-harlynking-_QcLpud-gD0-unsplash.jpg": "/idjh263/irene-react-portfolio/static/media/max-harlynking-_QcLpud-gD0-unsplash.94e3d7b058161eba389e.jpg",
-    "static/media/encore.png": "/idjh263/irene-react-portfolio/static/media/encore.58d5c1b582c00ec460d1.png",
-    "static/media/pharmappoint.png": "/idjh263/irene-react-portfolio/static/media/pharmappoint.5900b9d4927a68496cbb.png",
-    "static/media/ireneProfile.png": "/idjh263/irene-react-portfolio/static/media/ireneProfile.8ae39c1b7e7ca97e7376.png",
-    "static/media/underconstraction.jpg": "/idjh263/irene-react-portfolio/static/media/underconstraction.a93fb95c76cde319fd1b.jpg",
-    "index.html": "/idjh263/irene-react-portfolio/index.html",
-    "main.9a27a88c.css.map": "/idjh263/irene-react-portfolio/static/css/main.9a27a88c.css.map",
-    "main.3ee4ccc6.js.map": "/idjh263/irene-react-portfolio/static/js/main.3ee4ccc6.js.map",
-    "787.134955a3.chunk.js.map": "/idjh263/irene-react-portfolio/static/js/787.134955a3.chunk.js.map"
+    "main.css": "/irene-react-portfolio/static/css/main.392994a6.css",
+    "main.js": "/irene-react-portfolio/static/js/main.f079c4cc.js",
+    "static/js/787.134955a3.chunk.js": "/irene-react-portfolio/static/js/787.134955a3.chunk.js",
+    "static/media/max-harlynking-_QcLpud-gD0-unsplash.jpg": "/irene-react-portfolio/static/media/max-harlynking-_QcLpud-gD0-unsplash.94e3d7b058161eba389e.jpg",
+    "static/media/encore.png": "/irene-react-portfolio/static/media/encore.58d5c1b582c00ec460d1.png",
+    "static/media/pharmappoint.png": "/irene-react-portfolio/static/media/pharmappoint.5900b9d4927a68496cbb.png",
+    "static/media/ireneProfile.png": "/irene-react-portfolio/static/media/ireneProfile.8ae39c1b7e7ca97e7376.png",
+    "static/media/underconstraction.jpg": "/irene-react-portfolio/static/media/underconstraction.a93fb95c76cde319fd1b.jpg",
+    "index.html": "/irene-react-portfolio/index.html",
+    "main.392994a6.css.map": "/irene-react-portfolio/static/css/main.392994a6.css.map",
+    "main.f079c4cc.js.map": "/irene-react-portfolio/static/js/main.f079c4cc.js.map",
+    "787.134955a3.chunk.js.map": "/irene-react-portfolio/static/js/787.134955a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a27a88c.css",
-    "static/js/main.3ee4ccc6.js"
+    "static/css/main.392994a6.css",
+    "static/js/main.f079c4cc.js"
   ]
 }
