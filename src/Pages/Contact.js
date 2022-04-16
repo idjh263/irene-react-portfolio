@@ -17,10 +17,10 @@ const Contact = () => {
     setInputs((values) => ({ ...values, [name]: value }));
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert(inputs);
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   alert(inputs);
+  // };
   return (
     <div className="messages">
       <div>
