@@ -1,6 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans&family=Rubik+Moonrocks&family=Square+Peg&display=swap');
+
+
+
 body {
   background-image: url("./assets/images/max-harlynking-_QcLpud-gD0-unsplash.jpg");
   background-color: #cccccc;
+  font-family: 'Josefin Sans';
+  padding-left: 20px;
 }
 
 /* nav page */
@@ -60,17 +67,18 @@ nav a.active {
     font-size: 48px;
   }
   .home-title {
-    height: 38px; 
+    height: 50px; 
     overflow: hidden;
   }
   .home-title-wrapper {
+  
     height: 100%;
     animation: move 8s ease-in-out infinite alternate;
   }
   @keyframes move {
-    0% {
+    /* 0% {
       transform: translateY(0);
-    }
+    } */
     25% {
         transform: translateY(-25px);
     }
@@ -82,13 +90,14 @@ nav a.active {
     }
   }
   .home-title-item {
-    height: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:80px;
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-family: "Rubik Moonrocks";
     color:rgb(25, 151, 82);
     display: flex; 
     align-items: center;
+    overflow: auto;
   
   }
   .home-img {
@@ -109,7 +118,9 @@ nav a.active {
     top: 0;
     right: 0;
   } */
-  
+  .home-left p {
+    font-size: 30px;
+  }
 
 
 /* about page */
@@ -285,6 +296,42 @@ nav a.active {
   text-align: center;
   font-size: 40px;
 }
-.header p:hover {
+.header h2:hover {
   color: red;
+}
+h2, h3, h4 {
+  font-family: 'Alfa Slab One';
+  font-weight: 300;
+}
+p {
+  font-family: 'Square Peg';
+}
+.errorpage {
+  color: red;
+  font-family: 'Rubik Moonrocks';
+  font-size: 40px;
+  align-content: center;
+  padding-bottom: 100px;
+}
+.social-image {
+  width: 100%;
+  align-content: center;
+  overflow: auto;
+}
+.social-icon a {
+  transition: all 0.3s ease;
+  float: left;
+  width: 30%; 
+  padding: 12px 0;
+}
+.social-icon svg:hover {
+  background-color: black;
+}
+.social-icon svg {
+  margin-top: 50%;
+  padding-top: 0%;
+  height: 40px;
+  width: 40px;
+  color: red;
+  display: inline-flex;
 }
