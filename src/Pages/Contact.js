@@ -17,10 +17,10 @@ const Contact = () => {
     setInputs((values) => ({ ...values, [name]: value }));
   };
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   alert(inputs);
-  // };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(inputs);
+  };
   return (
     <div className="messages">
       <div>
@@ -61,35 +61,34 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <form className="contact-form">
-          <label for="contact-name">Your Name</label>
+        <form onSubmit={handleSubmit}
+        className="contact-form">
+          <label>Your Name
           <input
             type="text"
-            id="contact-name"
-            name="username"
+            name="name"
             value={inputs.name || ""}
             onChange={handleChange}
-            placeholder="Your Name"
           />
+          </label>
 
-          <label for="email">Email</label>
+          <label>Email
           <input
             type="email"
-            id="contact-name"
             name="email"
             value={inputs.email || ""}
             onChange={handleChange}
-            placeholder="Email"
           />
-
-          <label for="contact-message">Message</label>
+          </label>
+          <label>Message
           <textarea
-            id="contact-message"
+            id="message"
             name="message"
             value={inputs.message || ""}
             onChange={handleChange}
             placeholder="Message"
           ></textarea>
+          </label>
           <input type="submit" />
         </form>
       </div>
