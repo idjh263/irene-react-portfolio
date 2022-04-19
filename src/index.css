@@ -203,7 +203,6 @@ nav a.active {
 
 /* contact page  */
 .messages {
-  
   padding: 20px;
 }
 .messages h2 {
@@ -335,3 +334,64 @@ p {
   color: red;
   display: inline-flex;
 }
+.cv a {
+  color: white;
+  text-decoration: none;
+}
+.cv a:hover {
+  color:rgba(255, 0, 0, 0.475)
+}
+.project-title img:hover {
+  border: 5px solid red;
+  color: red;
+}
+.project-main p {
+  color: pink;
+  text-align: center;
+  font-size: 40px;
+}
+.project-title a {
+  color: pink;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+.project-title a:hover {
+  color: fuchsia;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+ 
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+      width: 100%;
+      text-align: center;
+  }
+  .nav {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: center; 
+      flex-direction: column;
+  }
+  .nav a {
+      font-size: 16px;
+      justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+    .contact-container {
+      width: 600px;
+      padding-left: 20px;
+  }
+  .contact-form {
+      padding-left: 50px;
+  }
+}
+  
