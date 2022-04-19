@@ -10,6 +10,7 @@ const Gprojects = () => {
     <div>
         <div className='project-main'>
             <h2>Bootcamp Collaborative Projects</h2>
+            <p>Click on the image to see Github Repository</p>
         </div>
         <div id="project-wrapper">
         
@@ -23,6 +24,9 @@ const Gprojects = () => {
                 </a>
                 <div>
                 <h4>Server-side using 2 APIs (AudioDB & Ticketmaster)</h4>
+               <a href="https://idjh263.github.io/project-one">Click here for Deployed Application</a>
+
+"
             </div>
         </div>
 
@@ -38,6 +42,7 @@ const Gprojects = () => {
                     <h4>CMS Application following MVC framework with CRUD (PharmAppoint)
                        
                     </h4>
+                    <a href="https://obscure-basin-09475.herokuapp.com/">Click here for Deployed Application</a>
                 </div>
             </div>
         

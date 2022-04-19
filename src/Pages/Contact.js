@@ -7,6 +7,8 @@ import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import resume from "../utils/resume_irene.pdf";
+
 
 const Contact = () => {
   const [inputs, setInputs] = useState({});
@@ -24,7 +26,7 @@ const Contact = () => {
   return (
     <div className="messages">
       <div>
-        <h2 id="contact-me">Contact Me: </h2>
+        <h id="contact-me">Contact Me: </h>
         <p>
           Looking for opportunities to work and collaborate in small or large
           projects. If you have any questions for me, don't hesitate to contact
@@ -42,6 +44,12 @@ const Contact = () => {
           <div className="icon-text>">
             <FontAwesomeIcon icon={faMapLocationDot} />
             <span> Toronto, Canada</span>
+          </div>
+          <div className="cv">
+            <h3 className="heading">Resume</h3>
+            <a href={resume}>Link to My Resume</a>
+
+
           </div>
           <div className="social-media">
             <div className="social-icon">
