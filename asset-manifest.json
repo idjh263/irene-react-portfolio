@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/irene-react-portfolio/static/css/main.56a7195c.css",
-    "main.js": "/irene-react-portfolio/static/js/main.35b72966.js",
+    "main.js": "/irene-react-portfolio/static/js/main.301fd817.js",
     "static/js/787.134955a3.chunk.js": "/irene-react-portfolio/static/js/787.134955a3.chunk.js",
     "static/media/max-harlynking-_QcLpud-gD0-unsplash.jpg": "/irene-react-portfolio/static/media/max-harlynking-_QcLpud-gD0-unsplash.94e3d7b058161eba389e.jpg",
     "static/media/encore.png": "/irene-react-portfolio/static/media/encore.58d5c1b582c00ec460d1.png",
+    "static/media/project3.png": "/irene-react-portfolio/static/media/project3.9c5d7f0c94742847db51.png",
     "static/media/pharmappoint.png": "/irene-react-portfolio/static/media/pharmappoint.5900b9d4927a68496cbb.png",
     "static/media/ireneProfile.png": "/irene-react-portfolio/static/media/ireneProfile.8ae39c1b7e7ca97e7376.png",
-    "static/media/underconstraction.jpg": "/irene-react-portfolio/static/media/underconstraction.a93fb95c76cde319fd1b.jpg",
     "static/media/resume_irene.pdf": "/irene-react-portfolio/static/media/resume_irene.6ecdf958b9e1f1414284.pdf",
     "index.html": "/irene-react-portfolio/index.html",
     "main.56a7195c.css.map": "/irene-react-portfolio/static/css/main.56a7195c.css.map",
-    "main.35b72966.js.map": "/irene-react-portfolio/static/js/main.35b72966.js.map",
+    "main.301fd817.js.map": "/irene-react-portfolio/static/js/main.301fd817.js.map",
     "787.134955a3.chunk.js.map": "/irene-react-portfolio/static/js/787.134955a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56a7195c.css",
-    "static/js/main.35b72966.js"
+    "static/js/main.301fd817.js"
   ]
 }
