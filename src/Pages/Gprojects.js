@@ -3,7 +3,7 @@ import React from 'react';
 import "../../src/index.css";
 import proj1icon from "../assets/images/encore.png";
 import proj2icon from "../assets/images/pharmappoint.png";
-import proj3icon from "../assets/images/underconstraction.jpg";
+import proj3icon from "../assets/images/project3.png";
 
 const Gprojects = () => {
   return (
@@ -49,10 +49,12 @@ const Gprojects = () => {
         <div className="project-title">
             <div>
             <h3>Project 3</h3>
-            <img src={proj3icon} alt="" />
+            <a href="https://github.com/idjh263/final-project">
+            <img src={proj3icon} alt="" className="githubIcon"/>
+            </a>
                 <h4>MERN Project
-                <br/> Coming soon
                 </h4>
+                <a href="https://frozen-inlet-62135.herokuapp.com/">Click here for Deployed Application</a>
             </div>
         </div>
         </div>
